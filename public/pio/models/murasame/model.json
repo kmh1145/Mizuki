@@ -1,9 +1,9 @@
 {
   "Version": 3,
   "FileReferences": {
-    "Moc": "Murasame.moc3",
+    "Moc": "model.moc",
     "Textures": [
-      "Murasame.4096/texture_00.png"
+      "textures/texture_00.png"
     ],
     "Physics": "Murasame.physics3.json",
     "PhysicsV2": {
