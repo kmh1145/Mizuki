@@ -50,17 +50,17 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "昆明湖的博客",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/home.png",
 	},
 
 	bangumi: {
-		userId: "your-bangumi-id", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "965746", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
-		mode: "local", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
+		mode: "bangumi", // 番剧页面模式："bangumi" 使用Bangumi API，"local" 使用本地配置
 	},
 
 	// 文章列表布局配置
@@ -75,7 +75,7 @@ export const siteConfig: SiteConfig = {
 	// 标签样式配置
 	tagStyle: {
 		// 是否使用新样式（悬停高亮样式）还是旧样式（外框常亮样式）
-		useNewStyle: false,
+		useNewStyle: true,
 	},
 
 	// 壁纸模式配置
@@ -139,11 +139,11 @@ export const siteConfig: SiteConfig = {
 			title: "Ciallo～(∠・ω< )⌒☆", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"好好睡觉",
+				"有没有什么想和我说的呢？",
+				"来看看我的新文章吧！",
+				"你好吗？",
+				"记得多喝热水哦~",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -169,7 +169,7 @@ export const siteConfig: SiteConfig = {
 		enable: true, // 启用目录功能
 		mode: "sidebar", // 目录显示模式："float" 悬浮按钮模式，"sidebar" 侧边栏模式
 		depth: 2, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
-		useJapaneseBadge: true, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
+		useJapaneseBadge: false, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
 	},
 	showCoverInContent: true, // 在文章内容页显示文章封面
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
@@ -245,21 +245,27 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/kmh1145/Mizuki",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/471716423",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "宁宁云",
+					url: "https://nnyunidc.cn/",
 					external: true,
-					icon: "mdi:git",
+					icon: "fa6-solid:computer",
+				},
+				{
+					name: "统计",
+					url: "https://cloud.umami.is/share/IHmXa0TEz1PYtnUc",
+					external: true,
+					icon: "fa6-solid:database",
 				},
 			],
 		},
@@ -335,8 +341,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Matsuzaka Yuki",
-	bio: "The world is big, you have to go and see",
+	name: "昆明湖",
+	bio: "what can I say",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -345,7 +351,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/471716423",
 		},
 		{
 			name: "Gitee",
@@ -355,17 +361,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
-		},
-		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
-		},
-		{
-			name: "Discord",
-			icon: "fa6-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://github.com/kmh1145",
 		},
 	],
 };
@@ -419,8 +415,8 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "Announcement", // 公告标题
-	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	title: "公告", // 公告标题
+	content: "还在配置中", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -630,7 +626,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: true, // 启用看板娘
+	enable: false, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 默认位置在右侧
 	width: 280, // 默认宽度
@@ -664,10 +660,11 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: false, // 是否显示Umami统计
-	apiKey: import.meta.env.UMAMI_API_KEY || "api_xxxxxxxx", // API密钥优先从环境变量读取，否则使用配置文件中的值
+	enabled: true, // 是否显示Umami统计
+	apiKey:
+		import.meta.env.UMAMI_API_KEY || "api_L4VsUTnzNjSmNFBZWTm7csxDwYiRHw3E", // API密钥优先从环境变量读取，否则使用配置文件中的值
 	baseUrl: "https://api.umami.is", // Umami Cloud API地址
 	scripts: `
-<script defer src="XXXX.XXX" data-website-id="ABCD1234"></script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="51157e3d-063f-41a9-98da-d936991ed5d9"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
