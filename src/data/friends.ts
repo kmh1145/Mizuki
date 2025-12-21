@@ -76,6 +76,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://developer.mozilla.org",
 		tags: ["Docs", "Reference"],
 	},
+	{
+		id: 9,
+		title: "zyxblog",
+		imgurl: "https://zyx-blog.top/avatar.jpg",
+		desc: "arch大佬这一块",
+		siteurl: "https://zyx-blog.top",
+		tags: ["Blog", "Personal"],
+	},
 ];
 
 // 获取所有友情链接数据
