@@ -10,6 +10,7 @@ import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getSortedPosts } from "@utils/content-utils";
+import Giscus from "../../components/comment/giscus.astro";
 import {
 	// getDir,
 	getFileDirFromPath,
@@ -284,6 +285,12 @@ const jsonLd = {
                                 class="mb-6 rounded-xl license-container onload-animation"
                             />
                         )}
+	        <Giscus
+           	               repo="kmh1145/Mizuki-comments"
+          	               repoId="R_kgDOQuTrKA"
+               	               category="Announcements"
+         	               categoryId="DIC_kwDOQuTrKM4C0NCd"
+                        />
                     </>
                 )
             }
