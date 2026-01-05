@@ -3,10 +3,9 @@ title: 林柚云美国洛杉矶9950X小鸡测试
 published: 2026-01-05
 pinned: false
 description: 性价比很高，这单核比我好几个2核的多核都强
-image: ''
+image: ""
 tags:
   - 服务器
-  - 林柚云
   - 宁宁云
 category: 服务器测评
 draft: false
