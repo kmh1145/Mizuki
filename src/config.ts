@@ -257,7 +257,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "宁宁云",
-					url: "https://nnyunidc.cn/",
+					url: "https://nnyunidc.com/",
 					external: true,
 					icon: "fa6-solid:computer",
 				},
