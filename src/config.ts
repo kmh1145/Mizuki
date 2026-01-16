@@ -201,20 +201,20 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
-			"/assets/desktop-banner/5.webp",
-			"/assets/desktop-banner/6.webp",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=1",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=2",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=3",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=4",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=5",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
-			"/assets/mobile-banner/5.webp",
-			"/assets/mobile-banner/6.webp",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=1",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=2",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=3",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=4",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=5",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
