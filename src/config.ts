@@ -41,9 +41,9 @@ export const siteConfig: SiteConfig = {
 		anime: true, // 番剧页面开关
 		diary: true, // 日记页面开关
 		friends: true, // 友链页面开关
-		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
-		timeline: true, // 时间线页面开关
+		projects: false, // 项目页面开关
+		skills: false, // 技能页面开关
+		timeline: false, // 时间线页面开关
 		albums: true, // 相册页面开关
 		devices: true, // 设备页面开关
 	},
@@ -57,7 +57,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
 		icon: "assets/home/avatar.webp",
 		// 网站Logo图片路径
-		logo: "assets/home/default-logo.png",
+		logo: "assets/home/avatar.webp",
 	},
 
 	// 页面自动缩放配置
@@ -101,33 +101,33 @@ export const siteConfig: SiteConfig = {
 	// 壁纸模式配置
 	wallpaperMode: {
 		// 默认壁纸模式：banner=顶部横幅，fullscreen=全屏壁纸，none=无壁纸
-		defaultMode: "banner",
+		defaultMode: "fullscreen",
 		// 整体布局方案切换按钮显示设置（默认："desktop"）
 		// "off" = 不显示
 		// "mobile" = 仅在移动端显示
 		// "desktop" = 仅在桌面端显示
 		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "desktop",
+		showModeSwitchOnMobile: "both",
 	},
 
 	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
-				"/assets/desktop-banner/5.webp",
-				"/assets/desktop-banner/6.webp",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=1",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=2",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=3",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=4",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=5",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
-				"/assets/mobile-banner/5.webp",
-				"/assets/mobile-banner/6.webp",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=1",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=2",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=3",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=4",
+				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=5",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -188,17 +188,17 @@ export const siteConfig: SiteConfig = {
 		enable: true, // 启用目录功能
 		mode: "sidebar", // 目录显示模式："float" 悬浮按钮模式，"sidebar" 侧边栏模式
 		depth: 2, // 目录深度，1-6，1 表示只显示 h1 标题，2 表示显示 h1 和 h2 标题，依此类推
-		useJapaneseBadge: true, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
+		useJapaneseBadge: false, // 使用日语假名标记（あいうえお...）代替数字，开启后会将 1、2、3... 改为 あ、い、う...
 	},
 	showCoverInContent: true, // 在文章内容页显示文章封面
 	generateOgImages: false, // 启用生成OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	favicon: [
-		// 留空以使用默认 favicon
-		// {
-		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
-		//   sizes: '32x32',              // 可选，图标大小
-		// }
+		//留空以使用默认 favicon
+		{
+		  src: '/favicon/avatar.webp',    // 图标文件路径
+		  theme: 'light',              // 可选，指定主题 'light' | 'dark'
+		  sizes: '32x32',              // 可选，图标大小
+		}
 	],
 
 	// 字体配置
@@ -226,20 +226,20 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
-			"/assets/desktop-banner/2.webp",
-			"/assets/desktop-banner/3.webp",
-			"/assets/desktop-banner/4.webp",
-			"/assets/desktop-banner/5.webp",
-			"/assets/desktop-banner/6.webp",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=1",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=2",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=3",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=4",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=5",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/1.webp",
-			"/assets/mobile-banner/2.webp",
-			"/assets/mobile-banner/3.webp",
-			"/assets/mobile-banner/4.webp",
-			"/assets/mobile-banner/5.webp",
-			"/assets/mobile-banner/6.webp",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=1",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=2",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=3",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=4",
+			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=5",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -444,7 +444,7 @@ export const announcementConfig: AnnouncementConfig = {
 };
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: true, // 启用音乐播放器功能
+	enable: false, // 启用音乐播放器功能
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
 		"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
@@ -573,8 +573,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: false, // 默认关闭樱花特效
-	sakuraNum: 21, // 樱花数量
+	enable: true, // 默认关闭樱花特效
+	sakuraNum: 13, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
 		min: 0.5, // 樱花最小尺寸倍数
@@ -601,7 +601,7 @@ export const sakuraConfig: SakuraConfig = {
 
 // Pio 看板娘配置
 export const pioConfig: import("./types/config").PioConfig = {
-	enable: true, // 启用看板娘
+	enable: false, // 启用看板娘
 	models: ["/pio/models/pio/model.json"], // 默认模型路径
 	position: "left", // 模型位置
 	width: 280, // 默认宽度
