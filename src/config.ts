@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "昆明湖的博客",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/avatar.webp",
+		icon: "assets/home/logo.webp",
 		// 网站Logo图片路径
-		logo: "assets/home/avatar.webp",
+		logo: "assets/home/logo.webp",
 	},
 
 	// 页面自动缩放配置
@@ -636,7 +636,7 @@ export const widgetConfigs = {
 } as const;
 
 export const umamiConfig = {
-	enabled: false, // 是否显示Umami统计
+	enabled: true, // 是否显示Umami统计
 	apiKey:
 		import.meta.env.UMAMI_API_KEY || "cef88a6d-4d98-4f51-bdff-866e53f46129", // API密钥优先从环境变量读取，否则使用配置文件中的值
 	baseUrl: "https://api.umami.is", // Umami Cloud API地址
