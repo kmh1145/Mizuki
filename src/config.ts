@@ -195,7 +195,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		//留空以使用默认 favicon
 		{
-			src: "/favicon/avatar.webp", // 图标文件路径
+			src: "/favicon/logo.svg", // 图标文件路径
 			theme: "light", // 可选，指定主题 'light' | 'dark'
 			sizes: "32x32", // 可选，图标大小
 		},
@@ -420,9 +420,9 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
-		envId: "https://twikoo.vercel.app",
+		envId: "https://twikoo.91vip.ink", // Twikoo 环境 ID，通常是你的 Twikoo 实例 URL
 		lang: SITE_LANG,
 	},
 };
@@ -433,7 +433,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "还在配置中", // 公告内容
+	content: "随便看看，全是测评（", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
