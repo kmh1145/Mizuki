@@ -55,9 +55,9 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "昆明湖的博客",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/logo.svg",
+		icon: "/favicon/logo.svg",
 		// 网站Logo图片路径
-		logo: "assets/home/logo.svg",
+		logo: "/favicon/logo.svg",
 	},
 
 	// 页面自动缩放配置
