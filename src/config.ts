@@ -269,10 +269,10 @@ export const navBarConfig: NavBarConfig = {
 					icon: "fa7-solid:server",
 				},
 				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/471716423",
+					name: "服务监测",
+					url: "https://statu.nnyunidc.com/",
 					external: true,
-					icon: "fa7-brands:bilibili",
+					icon: "fa7-solid:cloud-upload-alt",
 				},
 				{
 					name: "统计",
