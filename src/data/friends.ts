@@ -39,7 +39,7 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 4,
 		title: "mikus blog",
-		imgurl: "https://blog.mikus.ink/_astro/miku.Dq7hXSsT_16skG5.webp",
+		imgurl: "https://blog.mikus.ink/_astro/miku.Dq7hXSsT_ZuHYtf.webp",
 		desc: "欢迎来到mikus的博客！",
 		siteurl: "https://blog.mikus.ink",
 		tags: ["Blog"],
