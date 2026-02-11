@@ -114,24 +114,24 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=1",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=2",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=3",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=4",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=5",
+				"/assets/desktop-banner/1.webp",
+				"/assets/desktop-banner/2.webp",
+				"/assets/desktop-banner/3.webp",
+				"/assets/desktop-banner/4.webp",
+				"/assets/desktop-banner/5.webp",
+				"/assets/desktop-banner/6.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=1",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=2",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=3",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=4",
-				"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=5",
+				"/assets/mobile-banner/1.webp",
+				"/assets/mobile-banner/2.webp",
+				"/assets/mobile-banner/3.webp",
+				"/assets/mobile-banner/4.webp",
+				"/assets/mobile-banner/5.webp",
+				"/assets/mobile-banner/6.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
-		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
+		position: "top", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
 
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
@@ -226,23 +226,23 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=1",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=2",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=3",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=4",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pc&return=redirect&t=5",
+				"/assets/desktop-banner/1.webp",
+				"/assets/desktop-banner/2.webp",
+				"/assets/desktop-banner/3.webp",
+				"/assets/desktop-banner/4.webp",
+				"/assets/desktop-banner/5.webp",
+				"/assets/desktop-banner/6.webp",
 		], // 桌面横幅图片
 		mobile: [
-			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=1",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=2",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=3",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=4",
-			"https://picflow-api.mikus.ink/api_v2.php?type=pe&return=redirect&t=5",
+				"/assets/mobile-banner/1.webp",
+				"/assets/mobile-banner/2.webp",
+				"/assets/mobile-banner/3.webp",
+				"/assets/mobile-banner/4.webp",
+				"/assets/mobile-banner/5.webp",
+				"/assets/mobile-banner/6.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
-	position: "center", // 壁纸位置，等同于 object-position
+	position: "top", // 壁纸位置，等同于 object-position
 	carousel: {
 		enable: true, // 启用轮播
 		interval: 5, // 轮播间隔时间（秒）
@@ -574,7 +574,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 
 export const sakuraConfig: SakuraConfig = {
 	enable: true, // 默认关闭樱花特效
-	sakuraNum: 13, // 樱花数量
+	sakuraNum: 18, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
 		min: 0.5, // 樱花最小尺寸倍数
