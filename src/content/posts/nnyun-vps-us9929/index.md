@@ -12,7 +12,7 @@ draft: false
 lang: ""
 ---
 
-# [购买链接]([16核 16GB 99元,超多地区可选 - 低价活动云 - 订购产品 | 宁宁云](https://nnyunidc.com/cart?fid=11&gid=55))
+# [购买链接](https://nnyunidc.com/cart?fid=11&gid=55)
 # 💻基本信息
  ![image](https://i.111666.best/image/yoVdJEGdiSpxjHWr0gX80d.webp)
 
