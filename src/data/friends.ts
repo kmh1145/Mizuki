@@ -39,9 +39,9 @@ export const friendsData: FriendItem[] = [
 	{
 		id: 4,
 		title: "mikus blog",
-		imgurl: "https://blog.mikus.ink/_astro/miku.Dq7hXSsT_ZuHYtf.webp",
+		imgurl: "https://mikus.ink/_astro/miku.Dq7hXSsT_ZuHYtf.webp",
 		desc: "欢迎来到mikus的博客！",
-		siteurl: "https://blog.mikus.ink",
+		siteurl: "https://mikus.ink",
 		tags: ["Blog"],
 	},
 	{
@@ -50,6 +50,14 @@ export const friendsData: FriendItem[] = [
 		imgurl: "https://zyx-blog.top/avatar.jpg",
 		desc: "arch大佬这一块",
 		siteurl: "https://zyx-blog.top",
+		tags: ["Blog"],
+	},
+	{
+		id: 6,
+		title: "橘贝Blog",
+		imgurl: "https://blog.gbjimmy.com/_astro/avatar.CBLOz7Ad_1OUMJo.webp",
+		desc: "一个东方、型月爱好者",
+		siteurl: "https://blog.gbjimmy.com/",
 		tags: ["Blog"],
 	},
 ];
