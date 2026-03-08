@@ -2,7 +2,7 @@
 title: openclaw最新版权限不足的问题解决办法
 published: 2026-03-08
 pinned: false
-description: 大家在安装最新版openclaw的时候可能会遇到”没有权限执行此操作“的回答，这篇文章告诉你解决方法
+description: 大家在安装最新版openclaw的时候可能会遇到“没有权限执行此操作”的回答，这篇文章告诉你解决方法
 image: ""
 tags:
   - openclaw
