@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/nnyun-vps-us9929/index.md",
+                "file": "src/content/posts/openclaw-guide/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,26 +171,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "be4a4489b2f612a5",
   "lastOpenFiles": [
+    "src/content/posts/openclaw-channels-feishu/index.md",
+    "src/content/posts/openclaw-channels-feishu/index.png",
+    "src/content/posts/openclaw-channels-feishu/index-15.png",
+    "src/content/posts/openclaw-channels-feishu/index-14.png",
+    "src/content/posts/openclaw-channels-feishu/index-13.png",
+    "src/content/posts/openclaw-channels-feishu/index-12.png",
+    "src/content/posts/openclaw-channels-feishu/index-7.png",
+    "src/content/posts/openclaw-channels-feishu/index-8.png",
+    "src/content/posts/openclaw-channels-feishu/index-6.png",
+    "src/content/posts/openclaw-channels-feishu/index-11.png",
+    "src/content/posts/openclaw-channels-feishu/index-10.png",
+    "src/content/posts/openclaw-guide/index.md",
+    "src/content/posts/openclaw-channels-feishu/OpenClaw飞书插件教程.md",
+    "src/content/posts/openclaw-channels-feishu",
+    "src/content/posts/新建文件夹",
+    "src/content/posts/nnyun-vps-us9929/index.md",
+    "src/content/posts/openclaw-guide",
+    "src/content/posts/未命名.md",
     "src/content/posts/nnyun-vps-us9929/speedtest.png.~tmp",
-    "src/content/posts/nnyun-vps-us9929/speedtest.png",
-    "src/content/posts/nnyun-vps-us9929/1.png",
-    "src/content/posts/nnyun-vps-us9929/7caa4b50005370154b7e4167b821a52f.png",
     "src/content/posts/nnyun-lxc-hk-1zl/index.md",
-    "src/content/posts/nnyun-lxc-hk-1zl/index.png",
-    "src/content/posts/google-us-oregon-free/index.png",
     "src/content/posts/google-us-oregon-free/index.md",
-    "src/content/posts/google-us-oregon-free/Pasted image 20251228132131.png",
     "2025-12-28.md",
     "public/template.md",
     "src/content/posts/google-us-oregon-free/未命名 1.base",
