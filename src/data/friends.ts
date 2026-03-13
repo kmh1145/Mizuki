@@ -60,6 +60,14 @@ export const friendsData: FriendItem[] = [
 		siteurl: "https://blog.gbjimmy.com/",
 		tags: ["Blog"],
 	},
+	{
+		id: 7,
+		title: "昆明湖AI博客",
+		imgurl: "https://aiblog.91vip.ink/favicon/avatar.webp",
+		desc: "本站的AI博客子站，分享AI制作的内容",
+		siteurl: "https://aiblog.91vip.ink/",
+		tags: ["Blog"],
+	},
 ];
 
 // 获取所有友情链接数据

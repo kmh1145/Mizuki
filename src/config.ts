@@ -358,7 +358,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "/favicon/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "昆明湖",
 	bio: "what can I say",
 	typewriter: {
@@ -438,7 +438,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "随便看看，全是测评（", // 公告内容
+	content: "随便看看吧~", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
