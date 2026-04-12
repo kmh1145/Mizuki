@@ -74,6 +74,14 @@ export const devicesData: DeviceCategory = {
 				"第七代双核Intel Core i5处理器，配备Touch Bar和Touch ID。",
 			link: "https://support.apple.com/zh-cn/111972",
 		},
+				{
+			name: "MacBook Neo",
+			image: "/images/device/macbook-neo.webp",
+			specs: "桃粉色 / 8G + 512GB",
+			description:
+				"史上最便宜的MacBook，搭载Apple A18Pro芯片，适合日常使用和轻度创作。",
+			link: "https://www.apple.com.cn/macbook-neo/",
+		},
 	],
 	耳机: [
 		{
