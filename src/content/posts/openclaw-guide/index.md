@@ -70,7 +70,7 @@ lang: ""
 2. 把下面这段工具权限代码插进去，记得注意JSON格式，和前后配置用逗号隔开，别写错格式；
 3. 保存好文件，重启OpenClaw服务：`openclaw gateway restart` 重新加载Agent，立马就能恢复正常干活，工具随便用。
 
-```
+```json
 "tools": {
     "profile": "full",
     "sessions": {

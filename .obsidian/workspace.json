@@ -182,6 +182,8 @@
   },
   "active": "be4a4489b2f612a5",
   "lastOpenFiles": [
+    "src/content/posts/first-article/index.md",
+    "src/content/posts/openclaw-guide/index.md",
     "src/content/posts/openclaw-channels-feishu/index.md",
     "src/content/posts/openclaw-channels-feishu/index.png",
     "src/content/posts/openclaw-channels-feishu/index-15.png",
@@ -193,7 +195,6 @@
     "src/content/posts/openclaw-channels-feishu/index-6.png",
     "src/content/posts/openclaw-channels-feishu/index-11.png",
     "src/content/posts/openclaw-channels-feishu/index-10.png",
-    "src/content/posts/openclaw-guide/index.md",
     "src/content/posts/openclaw-channels-feishu/OpenClaw飞书插件教程.md",
     "src/content/posts/openclaw-channels-feishu",
     "src/content/posts/新建文件夹",
@@ -209,7 +210,6 @@
     "src/content/posts/google-us-oregon-free/未命名.base",
     "src/content/posts/Mizuki/index.md",
     "src/content/posts/nnyun-lxc-hk-cn2/index.md",
-    "src/content/posts/Mizuki",
-    "src/content/posts/first-article/index.md"
+    "src/content/posts/Mizuki"
   ]
 }
