@@ -140,22 +140,22 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/LyraVoid/Mizuki",
-					external: true, // 外部链接，新标签页打开
-					icon: "fa7-brands:github",
+					name: "宁宁云",
+					url: "https://nnyunidc.com/",
+					external: true,
+					icon: "fa7-solid:server",
 				},
 				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					name: "服务监测",
+					url: "https://statu.nnyunidc.com/",
 					external: true,
-					icon: "fa7-brands:bilibili",
+					icon: "fa7-solid:cloud-upload-alt",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "统计",
+					url: "https://cloud.umami.is/share/HTVZr5HOQk5Fpe0O",
 					external: true,
-					icon: "mdi:git",
+					icon: "fa7-solid:chart-line",
 				},
 			],
 		},
@@ -205,30 +205,6 @@ export const navBarConfig: NavBarConfig = {
 					name: "Friends",
 					url: "/friends/",
 					icon: "material-symbols:group",
-				},
-			],
-		},
-
-		// 自定义一级下拉菜单示例：其他页面
-		{
-			name: "Others",
-			url: "#", // "#" 作为占位 URL，点击不会跳转
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				{
-					name: "Skills",
-					url: "/skills/",
-					icon: "material-symbols:psychology",
-				},
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
 				},
 			],
 		},
