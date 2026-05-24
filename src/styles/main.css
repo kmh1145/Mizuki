@@ -36,7 +36,7 @@
   font-display: swap;
 }
 
-/* 导入 萝莉体 第二版 字体 */
+/* 导入 HarmonyOS_Sans_Regular 字体 */
 @font-face {
   font-family: "HarmonyOS_Sans_Regular";
   src: url("/assets/font/HarmonyOS_Sans_Regular.ttf") format("truetype");
