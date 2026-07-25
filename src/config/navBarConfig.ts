@@ -140,22 +140,22 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "宁宁云",
-					url: "https://nnyunidc.com/",
-					external: true,
-					icon: "fa7-solid:server",
+					name: "GitHub",
+					url: "https://github.com/LyraVoid/Mizuki",
+					external: true, // 外部链接，新标签页打开
+					icon: "fa7-brands:github",
 				},
 				{
-					name: "服务监测",
-					url: "https://statu.nnyunidc.com/",
+					name: "Bilibili",
+					url: "https://space.bilibili.com/701864046",
 					external: true,
-					icon: "fa7-solid:cloud-upload-alt",
+					icon: "fa7-brands:bilibili",
 				},
 				{
-					name: "统计",
-					url: "https://cloud.umami.is/share/HTVZr5HOQk5Fpe0O",
+					name: "Gitee",
+					url: "https://gitee.com/matsuzakayuki/Mizuki",
 					external: true,
-					icon: "fa7-solid:chart-line",
+					icon: "mdi:git",
 				},
 			],
 		},
@@ -208,5 +208,6 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
+
 	],
 };
